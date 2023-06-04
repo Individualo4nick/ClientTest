@@ -7,9 +7,8 @@ public class Department {
     private String name;
     private List<Employee> employees;
 
-    public Department(String name, List<Employee> employees) {
+    public Department(String name) {
         this.name = name;
-        this.employees = employees;
     }
     public Department(){
 
@@ -23,11 +22,11 @@ public class Department {
         this.name = name;
     }
 
-    public List<Employee> getEmployees() {
-        return employees;
+    public Integer getId() {
+        return id;
     }
 
-    public void setEmployees(List<Employee> employees) {
-        this.employees = employees;
+    public void setId(Integer id) {
+        this.id = id;
     }
 }
