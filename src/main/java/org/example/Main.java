@@ -52,5 +52,7 @@ public class Main {
 
         String response4 = departmentCommunication.deleteDepartment(department.getId().toString());
         System.out.println(response4);
+
+        context.close();
     }
 }
